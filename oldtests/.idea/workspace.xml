@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ebc78a78-2fc7-4421-b92a-a405f26c3bd7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Adafruit_Python_DHT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServerP_Flask/api/DHT22.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServerP_Flask/api/pigdht.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServerP_Flask/serv.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ServerP_Flask/serv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServerX/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ServerX/server/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServerX/server/pyscript/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServerX/server/pyths/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServerX/server/pyths/.AppleDouble/dht22.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServerX/server/pyths/.AppleDouble/sensory.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServerX/server/pyths/dht22.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServerX/server/pyths/sensory.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServerX/server/routes/routes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/.AppleDouble/blink.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/.AppleDouble/dht.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/.AppleDouble/dht22.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/.AppleDouble/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/.AppleDouble/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/.AppleDouble/sensory.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/.AppleDouble/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/.vscode/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/.vscode/.AppleDouble/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/blink.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/dht.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/dht22.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/bindings/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/bindings/.AppleDouble/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/bindings/.AppleDouble/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/bindings/.AppleDouble/bindings.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/bindings/.AppleDouble/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/bindings/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/bindings/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/bindings/bindings.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/bindings/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/.AppleDouble/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/.AppleDouble/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/.AppleDouble/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/.AppleDouble/binding.gyp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/.AppleDouble/epoll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/.AppleDouble/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/binding.gyp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/build/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/build/.AppleDouble/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/build/.AppleDouble/binding.Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/build/.AppleDouble/config.gypi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/build/.AppleDouble/epoll.target.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/build/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/build/Release/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/build/Release/.AppleDouble/epoll.node" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/build/Release/.deps/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/build/Release/.deps/Release/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/build/Release/.deps/Release/.AppleDouble/epoll.node.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/build/Release/.deps/Release/epoll.node.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/build/Release/.deps/Release/obj.target/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/build/Release/.deps/Release/obj.target/.AppleDouble/epoll.node.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/build/Release/.deps/Release/obj.target/epoll.node.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/build/Release/.deps/Release/obj.target/epoll/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/build/Release/.deps/Release/obj.target/epoll/src/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/build/Release/.deps/Release/obj.target/epoll/src/.AppleDouble/epoll.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/build/Release/.deps/Release/obj.target/epoll/src/epoll.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/build/Release/epoll.node" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/build/Release/obj.target/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/build/Release/obj.target/.AppleDouble/epoll.node" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/build/Release/obj.target/epoll.node" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/build/Release/obj.target/epoll/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/build/Release/obj.target/epoll/src/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/build/Release/obj.target/epoll/src/.AppleDouble/epoll.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/build/Release/obj.target/epoll/src/epoll.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/build/binding.Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/build/config.gypi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/build/epoll.target.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/epoll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/example/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/example/interrupts-per-second/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/example/interrupts-per-second/.AppleDouble/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/example/interrupts-per-second/.AppleDouble/interrupts-per-second.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/example/interrupts-per-second/.AppleDouble/unexport" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/example/interrupts-per-second/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/example/interrupts-per-second/interrupts-per-second.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/example/interrupts-per-second/unexport" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/example/watch-button/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/example/watch-button/.AppleDouble/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/example/watch-button/.AppleDouble/unexport" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/example/watch-button/.AppleDouble/watch-button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/example/watch-button/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/example/watch-button/unexport" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/example/watch-button/watch-button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/src/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/src/.AppleDouble/epoll.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/src/.AppleDouble/epoll.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/src/epoll.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/src/epoll.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/test/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/test/.AppleDouble/closed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/test/.AppleDouble/do-almost-nothing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/test/.AppleDouble/do-nothing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/test/.AppleDouble/no-gc-allowed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/test/.AppleDouble/one-shot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/test/.AppleDouble/performance-check.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/test/.AppleDouble/run-tests" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/test/.AppleDouble/two-shot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/test/.AppleDouble/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/test/.AppleDouble/verify-events.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/test/closed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/test/coin-acceptor/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/test/coin-acceptor/.AppleDouble/avr-build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/test/coin-acceptor/.AppleDouble/coin-acceptor.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/test/coin-acceptor/.AppleDouble/coin-counter-fail.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/test/coin-acceptor/.AppleDouble/coin-counter-success.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/test/coin-acceptor/.AppleDouble/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/test/coin-acceptor/avr-build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/test/coin-acceptor/coin-acceptor.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/test/coin-acceptor/coin-counter-fail.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/test/coin-acceptor/coin-counter-success.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/test/coin-acceptor/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/test/do-almost-nothing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/test/do-nothing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/test/no-gc-allowed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/test/one-shot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/test/performance-check.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/test/run-tests" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/test/stress/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/test/stress/.AppleDouble/brute-force-leak-check.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/test/stress/brute-force-leak-check.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/test/two-shot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/test/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/epoll/test/verify-events.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/file-uri-to-path/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/file-uri-to-path/.AppleDouble/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/file-uri-to-path/.AppleDouble/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/file-uri-to-path/.AppleDouble/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/file-uri-to-path/.AppleDouble/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/file-uri-to-path/.AppleDouble/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/file-uri-to-path/.AppleDouble/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/file-uri-to-path/.AppleDouble/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/file-uri-to-path/.AppleDouble/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/file-uri-to-path/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/file-uri-to-path/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/file-uri-to-path/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/file-uri-to-path/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/file-uri-to-path/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/file-uri-to-path/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/file-uri-to-path/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/file-uri-to-path/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/file-uri-to-path/test/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/file-uri-to-path/test/.AppleDouble/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/file-uri-to-path/test/.AppleDouble/tests.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/file-uri-to-path/test/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/file-uri-to-path/test/tests.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/gpio/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/gpio/.AppleDouble/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/gpio/.AppleDouble/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/gpio/.AppleDouble/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/gpio/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/gpio/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/gpio/example/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/gpio/example/.AppleDouble/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/gpio/example/.AppleDouble/input.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/gpio/example/.AppleDouble/output.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/gpio/example/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/gpio/example/input.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/gpio/example/output.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/gpio/lib/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/gpio/lib/.AppleDouble/gpio.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/gpio/lib/gpio.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/gpio/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/gpio/test/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/gpio/test/.AppleDouble/tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/gpio/test/tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/lodash.debounce/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/lodash.debounce/.AppleDouble/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/lodash.debounce/.AppleDouble/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/lodash.debounce/.AppleDouble/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/lodash.debounce/.AppleDouble/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/lodash.debounce/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/lodash.debounce/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/lodash.debounce/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/lodash.debounce/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/.AppleDouble/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/.AppleDouble/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/.AppleDouble/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/.AppleDouble/include_dirs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/.AppleDouble/nan.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/.AppleDouble/nan_callbacks.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/.AppleDouble/nan_callbacks_12_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/.AppleDouble/nan_callbacks_pre_12_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/.AppleDouble/nan_converters.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/.AppleDouble/nan_converters_43_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/.AppleDouble/nan_converters_pre_43_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/.AppleDouble/nan_define_own_property_helper.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/.AppleDouble/nan_implementation_12_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/.AppleDouble/nan_implementation_pre_12_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/.AppleDouble/nan_json.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/.AppleDouble/nan_maybe_43_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/.AppleDouble/nan_maybe_pre_43_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/.AppleDouble/nan_new.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/.AppleDouble/nan_object_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/.AppleDouble/nan_persistent_12_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/.AppleDouble/nan_persistent_pre_12_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/.AppleDouble/nan_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/.AppleDouble/nan_string_bytes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/.AppleDouble/nan_typedarray_contents.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/.AppleDouble/nan_weak.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/.AppleDouble/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/doc/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/doc/.AppleDouble/asyncworker.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/doc/.AppleDouble/buffers.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/doc/.AppleDouble/callback.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/doc/.AppleDouble/converters.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/doc/.AppleDouble/errors.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/doc/.AppleDouble/json.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/doc/.AppleDouble/maybe_types.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/doc/.AppleDouble/methods.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/doc/.AppleDouble/new.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/doc/.AppleDouble/node_misc.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/doc/.AppleDouble/object_wrappers.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/doc/.AppleDouble/persistent.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/doc/.AppleDouble/scopes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/doc/.AppleDouble/script.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/doc/.AppleDouble/string_bytes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/doc/.AppleDouble/v8_internals.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/doc/.AppleDouble/v8_misc.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/doc/asyncworker.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/doc/buffers.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/doc/callback.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/doc/converters.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/doc/errors.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/doc/json.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/doc/maybe_types.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/doc/methods.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/doc/new.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/doc/node_misc.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/doc/object_wrappers.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/doc/persistent.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/doc/scopes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/doc/script.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/doc/string_bytes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/doc/v8_internals.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/doc/v8_misc.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/include_dirs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/nan.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/nan_callbacks.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/nan_callbacks_12_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/nan_callbacks_pre_12_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/nan_converters.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/nan_converters_43_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/nan_converters_pre_43_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/nan_define_own_property_helper.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/nan_implementation_12_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/nan_implementation_pre_12_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/nan_json.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/nan_maybe_43_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/nan_maybe_pre_43_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/nan_new.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/nan_object_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/nan_persistent_12_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/nan_persistent_pre_12_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/nan_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/nan_string_bytes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/nan_typedarray_contents.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/nan_weak.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/tools/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/tools/.AppleDouble/1to2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/tools/.AppleDouble/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/tools/.AppleDouble/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/tools/1to2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/tools/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/nan/tools/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/.AppleDouble/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/.AppleDouble/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/.AppleDouble/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/.AppleDouble/onoff.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/.AppleDouble/onoff.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/.AppleDouble/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/examples/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/examples/.AppleDouble/accessible.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/examples/.AppleDouble/blink-led-async.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/examples/.AppleDouble/blink-led-promises.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/examples/.AppleDouble/blink-led.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/examples/.AppleDouble/debounce-button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/examples/.AppleDouble/light-switch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/examples/.AppleDouble/light-switch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/examples/.AppleDouble/mygpio-overlay.dts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/examples/.AppleDouble/run-examples" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/examples/.AppleDouble/wait-for-interrupt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/examples/accessible.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/examples/blink-led-async.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/examples/blink-led-promises.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/examples/blink-led.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/examples/debounce-button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/examples/light-switch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/examples/light-switch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/examples/mygpio-overlay.dts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/examples/run-examples" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/examples/wait-for-interrupt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/integration-test/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/integration-test/.AppleDouble/blink-led-promises.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/integration-test/.AppleDouble/blink-led.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/integration-test/.AppleDouble/change-configuration.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/integration-test/.AppleDouble/configure-and-check-active-low-defaults.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/integration-test/.AppleDouble/configure-and-check-active-low.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/integration-test/.AppleDouble/configure-and-check-input.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/integration-test/.AppleDouble/configure-and-check-output.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/integration-test/.AppleDouble/debounce.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/integration-test/.AppleDouble/dont-reconfigure-direction-part1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/integration-test/.AppleDouble/dont-reconfigure-direction-part2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/integration-test/.AppleDouble/export-many-times.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/integration-test/.AppleDouble/high-low.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/integration-test/.AppleDouble/many-interrupts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/integration-test/.AppleDouble/output-with-edge-bug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/integration-test/.AppleDouble/performance-async.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/integration-test/.AppleDouble/performance-interrupt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/integration-test/.AppleDouble/performance-sync.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/integration-test/.AppleDouble/run-performance-tests" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/integration-test/.AppleDouble/run-tests" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/integration-test/.AppleDouble/wait-for-interrupt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/integration-test/.AppleDouble/wait-for-many-interrupts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/integration-test/blink-led-promises.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/integration-test/blink-led.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/integration-test/change-configuration.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/integration-test/configure-and-check-active-low-defaults.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/integration-test/configure-and-check-active-low.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/integration-test/configure-and-check-input.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/integration-test/configure-and-check-output.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/integration-test/debounce.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/integration-test/dont-reconfigure-direction-part1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/integration-test/dont-reconfigure-direction-part2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/integration-test/export-many-times.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/integration-test/high-low.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/integration-test/many-interrupts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/integration-test/output-with-edge-bug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/integration-test/performance-async.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/integration-test/performance-interrupt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/integration-test/performance-sync.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/integration-test/run-performance-tests" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/integration-test/run-tests" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/integration-test/wait-for-interrupt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/integration-test/wait-for-many-interrupts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/onoff.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/onoff.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/onoff/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/python-shell/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/python-shell/.AppleDouble/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/python-shell/.AppleDouble/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/python-shell/.AppleDouble/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/python-shell/.AppleDouble/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/python-shell/.AppleDouble/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/python-shell/.AppleDouble/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/python-shell/.AppleDouble/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/python-shell/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/python-shell/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/python-shell/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/python-shell/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/python-shell/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/python-shell/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/python-shell/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/.AppleDouble/.eslintrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/.AppleDouble/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/.AppleDouble/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/.AppleDouble/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/.AppleDouble/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/.AppleDouble/binding.gyp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/.AppleDouble/handler.diff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/.AppleDouble/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/.AppleDouble/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/.eslintrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/binding.gyp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/build/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/build/.AppleDouble/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/build/.AppleDouble/binding.Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/build/.AppleDouble/config.gypi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/build/.AppleDouble/rpio.target.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/build/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/build/Release/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/build/Release/.AppleDouble/rpio.node" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/build/Release/.deps/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/build/Release/.deps/Release/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/build/Release/.deps/Release/.AppleDouble/rpio.node.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/build/Release/.deps/Release/obj.target/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/build/Release/.deps/Release/obj.target/.AppleDouble/rpio.node.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/build/Release/.deps/Release/obj.target/rpio.node.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/build/Release/.deps/Release/obj.target/rpio/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/build/Release/.deps/Release/obj.target/rpio/src/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/build/Release/.deps/Release/obj.target/rpio/src/.AppleDouble/bcm2835.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/build/Release/.deps/Release/obj.target/rpio/src/.AppleDouble/rpio.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/build/Release/.deps/Release/obj.target/rpio/src/bcm2835.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/build/Release/.deps/Release/obj.target/rpio/src/rpio.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/build/Release/.deps/Release/rpio.node.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/build/Release/obj.target/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/build/Release/obj.target/.AppleDouble/rpio.node" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/build/Release/obj.target/rpio.node" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/build/Release/obj.target/rpio/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/build/Release/obj.target/rpio/src/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/build/Release/obj.target/rpio/src/.AppleDouble/bcm2835.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/build/Release/obj.target/rpio/src/.AppleDouble/rpio.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/build/Release/obj.target/rpio/src/bcm2835.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/build/Release/obj.target/rpio/src/rpio.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/build/Release/rpio.node" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/build/binding.Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/build/config.gypi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/build/rpio.target.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/examples/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/examples/.AppleDouble/blink.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/examples/.AppleDouble/button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/examples/.AppleDouble/dht11.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/examples/.AppleDouble/i2c-lcd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/examples/.AppleDouble/padcontrol.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/examples/.AppleDouble/pwm-led.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/examples/.AppleDouble/spi-at93c46.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/examples/blink.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/examples/button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/examples/dht11.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/examples/i2c-lcd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/examples/padcontrol.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/examples/pwm-led.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/examples/spi-at93c46.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/handler.diff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/lib/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/lib/.AppleDouble/rpio.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/lib/rpio.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/bindings/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/bindings/.AppleDouble/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/bindings/.AppleDouble/bindings.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/bindings/.AppleDouble/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/bindings/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/bindings/bindings.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/bindings/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/.AppleDouble/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/.AppleDouble/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/.AppleDouble/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/.AppleDouble/include_dirs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/.AppleDouble/nan-2.11.1.tgz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/.AppleDouble/nan.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/.AppleDouble/nan_callbacks.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/.AppleDouble/nan_callbacks_12_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/.AppleDouble/nan_callbacks_pre_12_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/.AppleDouble/nan_converters.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/.AppleDouble/nan_converters_43_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/.AppleDouble/nan_converters_pre_43_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/.AppleDouble/nan_define_own_property_helper.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/.AppleDouble/nan_implementation_12_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/.AppleDouble/nan_implementation_pre_12_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/.AppleDouble/nan_json.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/.AppleDouble/nan_maybe_43_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/.AppleDouble/nan_maybe_pre_43_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/.AppleDouble/nan_new.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/.AppleDouble/nan_object_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/.AppleDouble/nan_persistent_12_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/.AppleDouble/nan_persistent_pre_12_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/.AppleDouble/nan_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/.AppleDouble/nan_string_bytes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/.AppleDouble/nan_typedarray_contents.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/.AppleDouble/nan_weak.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/.AppleDouble/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/doc/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/doc/.AppleDouble/asyncworker.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/doc/.AppleDouble/buffers.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/doc/.AppleDouble/callback.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/doc/.AppleDouble/converters.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/doc/.AppleDouble/errors.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/doc/.AppleDouble/json.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/doc/.AppleDouble/maybe_types.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/doc/.AppleDouble/methods.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/doc/.AppleDouble/new.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/doc/.AppleDouble/node_misc.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/doc/.AppleDouble/object_wrappers.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/doc/.AppleDouble/persistent.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/doc/.AppleDouble/scopes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/doc/.AppleDouble/script.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/doc/.AppleDouble/string_bytes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/doc/.AppleDouble/v8_internals.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/doc/.AppleDouble/v8_misc.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/doc/asyncworker.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/doc/buffers.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/doc/callback.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/doc/converters.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/doc/errors.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/doc/json.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/doc/maybe_types.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/doc/methods.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/doc/new.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/doc/node_misc.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/doc/object_wrappers.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/doc/persistent.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/doc/scopes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/doc/script.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/doc/string_bytes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/doc/v8_internals.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/doc/v8_misc.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/include_dirs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/nan-2.11.1.tgz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/nan.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/nan_callbacks.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/nan_callbacks_12_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/nan_callbacks_pre_12_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/nan_converters.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/nan_converters_43_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/nan_converters_pre_43_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/nan_define_own_property_helper.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/nan_implementation_12_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/nan_implementation_pre_12_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/nan_json.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/nan_maybe_43_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/nan_maybe_pre_43_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/nan_new.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/nan_object_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/nan_persistent_12_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/nan_persistent_pre_12_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/nan_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/nan_string_bytes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/nan_typedarray_contents.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/nan_weak.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/tools/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/tools/.AppleDouble/1to2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/tools/.AppleDouble/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/tools/.AppleDouble/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/tools/1to2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/tools/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/node_modules/nan/tools/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/src/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/src/.AppleDouble/bcm2835.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/src/.AppleDouble/bcm2835.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/src/.AppleDouble/rpio.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/src/bcm2835.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/src/bcm2835.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/src/rpio.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/test/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/test/.AppleDouble/mock.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/rpio/test/mock.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/.AppleDouble/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/.AppleDouble/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/.AppleDouble/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/.AppleDouble/appveyor.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/.AppleDouble/binding.gyp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/.AppleDouble/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/.AppleDouble/module_init.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/.AppleDouble/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/.AppleDouble/sleep.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/.AppleDouble/sleep_cpp11.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/.AppleDouble/sleep_posix.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/.AppleDouble/sleep_win.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/.AppleDouble/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/appveyor.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/binding.gyp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/build/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/build/.AppleDouble/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/build/.AppleDouble/binding.Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/build/.AppleDouble/config.gypi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/build/.AppleDouble/node_sleep.target.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/build/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/build/Release/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/build/Release/.AppleDouble/node_sleep.node" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/build/Release/.deps/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/build/Release/.deps/Release/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/build/Release/.deps/Release/.AppleDouble/node_sleep.node.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/build/Release/.deps/Release/node_sleep.node.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/build/Release/.deps/Release/obj.target/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/build/Release/.deps/Release/obj.target/.AppleDouble/node_sleep.node.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/build/Release/.deps/Release/obj.target/node_sleep.node.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/build/Release/.deps/Release/obj.target/node_sleep/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/build/Release/.deps/Release/obj.target/node_sleep/.AppleDouble/module_init.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/build/Release/.deps/Release/obj.target/node_sleep/.AppleDouble/sleep_cpp11.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/build/Release/.deps/Release/obj.target/node_sleep/.AppleDouble/sleep_posix.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/build/Release/.deps/Release/obj.target/node_sleep/.AppleDouble/sleep_win.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/build/Release/.deps/Release/obj.target/node_sleep/module_init.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/build/Release/.deps/Release/obj.target/node_sleep/sleep_cpp11.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/build/Release/.deps/Release/obj.target/node_sleep/sleep_posix.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/build/Release/.deps/Release/obj.target/node_sleep/sleep_win.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/build/Release/node_sleep.node" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/build/Release/obj.target/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/build/Release/obj.target/.AppleDouble/node_sleep.node" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/build/Release/obj.target/node_sleep.node" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/build/Release/obj.target/node_sleep/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/build/Release/obj.target/node_sleep/.AppleDouble/module_init.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/build/Release/obj.target/node_sleep/.AppleDouble/sleep_cpp11.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/build/Release/obj.target/node_sleep/.AppleDouble/sleep_posix.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/build/Release/obj.target/node_sleep/.AppleDouble/sleep_win.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/build/Release/obj.target/node_sleep/module_init.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/build/Release/obj.target/node_sleep/sleep_cpp11.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/build/Release/obj.target/node_sleep/sleep_posix.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/build/Release/obj.target/node_sleep/sleep_win.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/build/binding.Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/build/config.gypi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/build/node_sleep.target.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/module_init.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/sleep.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/sleep_cpp11.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/sleep_posix.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/sleep_win.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/node_modules/sleep/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/sensory.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/server/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/server/.AppleDouble/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/server/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkled/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkpy/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkpy/.AppleDouble/DHT22.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkpy/.AppleDouble/blink.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkpy/.AppleDouble/dht.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkpy/.AppleDouble/pigdht.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkpy/.AppleDouble/testtt.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkpy/.idea/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkpy/.idea/.AppleDouble/blinkpy.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkpy/.idea/.AppleDouble/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkpy/.idea/.AppleDouble/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkpy/.idea/.AppleDouble/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkpy/.idea/.AppleDouble/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkpy/.idea/blinkpy.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkpy/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkpy/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkpy/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkpy/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkpy/.vscode/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkpy/.vscode/.AppleDouble/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkpy/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkpy/DHT22.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkpy/__pycache__/.AppleDouble/.Parent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkpy/blink.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkpy/dht.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkpy/pigdht.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blinkpy/testtt.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcp3008test/Raspberry-Pi-Gas-Sensor-MQ/MCP3008.py" beforeDir="false" afterPath="$PROJECT_DIR$/mcp3008test/Raspberry-Pi-Gas-Sensor-MQ/MCP3008.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcp3008test/Raspberry-Pi-Gas-Sensor-MQ/mq.py" beforeDir="false" afterPath="$PROJECT_DIR$/mcp3008test/Raspberry-Pi-Gas-Sensor-MQ/mq.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/facedetecttest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/facedetecttest.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="2400" />
+    <option name="y" value="23" />
+    <option name="width" value="960" />
+    <option name="height" value="1057" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="oldtests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oldtests" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ebc78a78-2fc7-4421-b92a-a405f26c3bd7" name="Default Changelist" comment="" />
+      <created>1558735185694</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558735185694</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="2400" y="23" width="960" height="1057" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.37699682" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info active="true" anchor="bottom" id="Event Log" side_tool="true" visible="true" weight="0.32953367" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/facedetecttest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
