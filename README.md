@@ -1,4 +1,4 @@
-# Smart-Home-IoT--Poor-Man-s-Jarvis-
+# Smart-Home-IoT-(Poor-Man's-Jarvis)
 IoT project about sensors and communication to build a smart home system
 
 # This was my bachelor project, i quite don't remember the wiring of this, but you can mail me for how to make one
